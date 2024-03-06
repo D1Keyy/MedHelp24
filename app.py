@@ -13,7 +13,7 @@ dp = Dispatcher()
 
 @dp.message()
 async def start_cmd(message: types.Message):
-    await message.answer("Подпишитесь на уведомления от MedHelp24. Для настройки зайдите в свой профиль на сайте medhelp24.com")
+    await message.answer("Подпи на уведомления от MedHelp24. Для настройки зайдите в свой профиль на сайте medhelp24.com")
 
 
 async def main():
